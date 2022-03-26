@@ -1,0 +1,71 @@
+
+a {
+    text-decoration: none;
+    color:#B2B2B2;
+}
+
+.header li {
+    list-style: none;
+    margin: 10px;
+    
+}
+
+
+.header {
+    background-color:#F8C8DC;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    justify-content: space-between;
+
+}
+    .menu {
+        display: flex;
+        margin: 10px;
+        flex-flow: wrap;
+        gap: 10 px;
+    
+ }
+    .logo {
+        color:#B2B2B2;
+        padding: 10 px;
+        margin: 10px;
+    }
+
+.introduction {
+    background-image: url("images/sunset.jpg");
+    background-color: aliceblue;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+}
+
+    .main-picture{
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin: 50px;
+        border-radius: 15px;
+       
+    }
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+    .one, .two, .three {
+        display: flex;
+        flex-flow: column;
+        gap: 10px;
+    }
+
+    .relationship, .culture, .english {
+        max-width: 300px;
+        height: auto;
+        border-radius: 15px;
+        
+
+    }
