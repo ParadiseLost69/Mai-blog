@@ -1,4 +1,6 @@
-
+h1 {
+    font-family:'Courier New', Courier, monospace
+}
 a {
     text-decoration: none;
     color:#B2B2B2;
@@ -17,6 +19,8 @@ a {
     flex-wrap: wrap;
     flex: 1 1 0;
     justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 
 }
     .menu {
@@ -38,6 +42,8 @@ a {
     background-size:cover;
     display: flex;
     justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
     .main-picture{
@@ -69,3 +75,49 @@ a {
         
 
     }
+
+
+    /* Dropdown Button */
+.dropbtn {
+    background-color: #F8C8DC;
+    color: #B2B2B2;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
